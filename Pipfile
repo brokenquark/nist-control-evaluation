@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+openpyxl = "*"
+tabulate = "*"
+scikit-learn = "*"
+matplotlib = "*"
+scipy = "*"
+fpgrowth-py = "*"
+mlxtend = "==0.19.0"
+networkx = "*"
+seaborn = "*"
+numpy = "*"
+prefixspan = "*"
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+flake8 = "*"
